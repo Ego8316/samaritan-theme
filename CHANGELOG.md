@@ -1,3 +1,4 @@
 # Change Log
 
-11/03/25: created theme
+1.0.0: created theme
+1.0.1: added logo
