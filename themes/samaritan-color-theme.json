@@ -1,0 +1,90 @@
+{
+	"name": "Samaritan",
+	"colors": {
+		"editor.background": "#F7F7F7",
+		"editor.foreground": "#000000",
+		"list.activeSelectionIconForeground": "#D32F2F",
+		"editorCursor.foreground": "#ff0000",
+		"editor.selectionBackground": "#a7a6a6",
+		"editor.lineHighlightBackground": "#ebe9e9",
+		"terminal.foreground": "#000000",
+		"terminal.background": "#ffffff",
+		"statusBar.background": "#B71C1C",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBar.noFolderBackground": "#D32F2F",
+		"statusBar.debuggingBackground": "#FF3D3D",
+		"statusBar.border": "#880000",
+		"activityBarBadge.background": "#FF3D3D",
+		"activityBarBadge.foreground": "#FFFFFF"
+	},
+	"tokenColors": [
+	{
+		"name": "Comments",
+		"scope": [
+		"comment",
+		"punctuation.definition.comment"
+		],
+		"settings": {
+		"fontStyle": "italic",
+		"foreground": "#616161" // Darker gray for comments
+		}
+	},
+	{
+		"name": "Keywords",
+		"scope": [
+		"keyword",
+		"storage"
+		],
+		"settings": {
+		"fontStyle": "bold", // Bold keywords for emphasis
+		"foreground": "#ff0000" // Bold red for keywords
+		}
+	},
+	{
+		"name": "Variables",
+		"scope": [
+		"variable",
+		"support.variable"
+		],
+		"settings": {
+		"fontStyle": "bold", // Bold variables for readability
+		"foreground": "#FF7043" // Orange-red for variables, giving contrast to red keywords
+		}
+	},
+	{
+		"name": "Functions",
+		"scope": [
+		"entity.name.function",
+		"support.function"
+		],
+		"settings": {
+		"fontStyle": "bold", // Bold functions to improve readability
+		"foreground": "#FF5722" // Strong red-orange for function names
+		}
+	},
+	{
+		"name": "Strings",
+		"scope": "string",
+		"settings": {
+		"foreground": "#D32F2F" // Red for strings
+		}
+	},
+	{
+		"name": "Numbers",
+		"scope": [
+		"constant.numeric",
+		"constant.character"
+		],
+		"settings": {
+		"foreground": "#C62828" // Deep red for numbers
+		}
+	},
+	{
+		"name": "Punctuation",
+		"scope": "punctuation",
+		"settings": {
+		"foreground": "#B71C1C" // Dark red for punctuation
+		}
+	}
+	]
+}
