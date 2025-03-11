@@ -1,6 +1,0 @@
-node_modules
-*.vsix
-.vscodeignore
-.gitignore
-.gitattributes
-.vscode
