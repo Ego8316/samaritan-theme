@@ -35,66 +35,66 @@
 	{
 		"name": "Comments",
 		"scope": [
-		"comment",
-		"punctuation.definition.comment"
+			"comment",
+			"punctuation.definition.comment"
 		],
 		"settings": {
 		"fontStyle": "italic",
-		"foreground": "#2b2b2b"
+			"foreground": "#2b2b2b"
 		}
 	},
 	{
 		"name": "Keywords",
 		"scope": [
-		"keyword",
-		"storage"
+			"keyword",
+			"storage"
 		],
 		"settings": {
-		"foreground": "#ff0000"
+			"foreground": "#ff0000"
 		}
 	},
 	{
 		"name": "Variables",
 		"scope": [
-		"variable",
-		"support.variable"
+			"variable",
+			"support.variable"
 		],
 		"settings": {
-		"foreground": "#000000"
+			"foreground": "#000000"
 		}
 	},
 	{
 		"name": "Functions",
 		"scope": [
-		"entity.name.function",
-		"support.function"
+			"entity.name.function",
+			"support.function"
 		],
 		"settings": {
-		"foreground": "#ff0000"
+			"foreground": "#ff0000"
 		}
 	},
 	{
 		"name": "Strings",
 		"scope": "string",
 		"settings": {
-		"foreground": "#dd1f1f"
+			"foreground": "#dd1f1f"
 		}
 	},
 	{
 		"name": "Numbers",
 		"scope": [
-		"constant.numeric",
-		"constant.character"
+			"constant.numeric",
+			"constant.character"
 		],
 		"settings": {
-		"foreground": "#000000"
+			"foreground": "#000000"
 		}
 	},
 	{
 		"name": "Punctuation",
 		"scope": "punctuation",
 		"settings": {
-		"foreground": "#000000"
+			"foreground": "#000000"
 		}
 	}
 	]
