@@ -3,6 +3,8 @@
   "displayName": "Samaritan Theme",
   "description": "Samaritan UI theme",
   "version": "1.0.0",
+  "author": "Hugo Cavet",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ego8316/samaritan-theme"

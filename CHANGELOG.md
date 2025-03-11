@@ -1,9 +1,3 @@
 # Change Log
 
-All notable changes to the "samaritan-theme" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+11/03/25: created theme

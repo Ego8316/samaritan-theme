@@ -1,12 +1,12 @@
 {
 	"name": "Samaritan",
 	"colors": {
-		"editor.background": "#F7F7F7",
+		"editor.background": "#f3f3f3",
 		"editor.foreground": "#000000",
 		"list.activeSelectionIconForeground": "#D32F2F",
 		"editorCursor.foreground": "#ff0000",
 		"editor.selectionBackground": "#a7a6a6",
-		"editor.lineHighlightBackground": "#ebe9e9",
+		"editor.lineHighlightBackground": "#dddddd",
 		"terminal.foreground": "#000000",
 		"terminal.background": "#ffffff",
 		"statusBar.background": "#B71C1C",
@@ -15,7 +15,8 @@
 		"statusBar.debuggingBackground": "#FF3D3D",
 		"statusBar.border": "#880000",
 		"activityBarBadge.background": "#FF3D3D",
-		"activityBarBadge.foreground": "#FFFFFF"
+		"activityBarBadge.foreground": "#FFFFFF",
+		"sideBar.border": "#cccccc",
 	},
 	"tokenColors": [
 	{
@@ -26,7 +27,7 @@
 		],
 		"settings": {
 		"fontStyle": "italic",
-		"foreground": "#616161" // Darker gray for comments
+		"foreground": "#2b2b2b"
 		}
 	},
 	{
@@ -36,8 +37,7 @@
 		"storage"
 		],
 		"settings": {
-		"fontStyle": "bold", // Bold keywords for emphasis
-		"foreground": "#ff0000" // Bold red for keywords
+		"foreground": "#ff0000"
 		}
 	},
 	{
@@ -47,8 +47,7 @@
 		"support.variable"
 		],
 		"settings": {
-		"fontStyle": "bold", // Bold variables for readability
-		"foreground": "#FF7043" // Orange-red for variables, giving contrast to red keywords
+		"foreground": "#000000"
 		}
 	},
 	{
@@ -58,15 +57,14 @@
 		"support.function"
 		],
 		"settings": {
-		"fontStyle": "bold", // Bold functions to improve readability
-		"foreground": "#FF5722" // Strong red-orange for function names
+		"foreground": "#ff0000"
 		}
 	},
 	{
 		"name": "Strings",
 		"scope": "string",
 		"settings": {
-		"foreground": "#D32F2F" // Red for strings
+		"foreground": "#fa8601"
 		}
 	},
 	{
@@ -76,14 +74,14 @@
 		"constant.character"
 		],
 		"settings": {
-		"foreground": "#C62828" // Deep red for numbers
+		"foreground": "#000000"
 		}
 	},
 	{
 		"name": "Punctuation",
 		"scope": "punctuation",
 		"settings": {
-		"foreground": "#B71C1C" // Dark red for punctuation
+		"foreground": "#000000"
 		}
 	}
 	]
