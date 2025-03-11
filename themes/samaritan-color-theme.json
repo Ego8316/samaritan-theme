@@ -1,22 +1,35 @@
 {
 	"name": "Samaritan",
 	"colors": {
-		"editor.background": "#f3f3f3",
+		"editor.background": "#f0f0f0",
 		"editor.foreground": "#000000",
-		"list.activeSelectionIconForeground": "#D32F2F",
+		"list.activeSelectionIconForeground": "#d32f2f",
 		"editorCursor.foreground": "#ff0000",
-		"editor.selectionBackground": "#a7a6a6",
-		"editor.lineHighlightBackground": "#dddddd",
+		"editor.selectionBackground": "#ffffff",
+		"editor.lineHighlightBackground": "#d1d1d1",
+		"editorLineNumber.foreground": "#e00000",
+		"editorLineNumber.activeForeground": "#ff0000",
 		"terminal.foreground": "#000000",
 		"terminal.background": "#ffffff",
-		"statusBar.background": "#B71C1C",
-		"statusBar.foreground": "#FFFFFF",
-		"statusBar.noFolderBackground": "#D32F2F",
-		"statusBar.debuggingBackground": "#FF3D3D",
+		"statusBar.background": "#b71c1c",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.noFolderBackground": "#d32f2f",
+		"statusBar.debuggingBackground": "#ff3d3d",
 		"statusBar.border": "#880000",
-		"activityBarBadge.background": "#FF3D3D",
-		"activityBarBadge.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#ff3d3d",
+		"activityBarBadge.foreground": "#ffffff",
+		"sideBar.background": "#d9dada",
+		"sideBar.foreground": "#000000",
 		"sideBar.border": "#cccccc",
+		"list.inactiveSelectionBackground": "#cbcccc",
+		"list.inactiveSelectionForeground": "#000000",
+		"list.activeSelectionBackground": "#d32f2d",
+		"list.focusOutline": "#cccccc",
+		"gitDecoration.modifiedResourceForeground": "#000000",
+		"gitDecoration.addedResourceForeground": "#000000",
+		"gitDecoration.deletedResourceForeground": "#000000",
+		"gitDecoration.untrackedResourceForeground": "#000000",
+		"gitDecoration.ignoredResourceForeground": "#494949"
 	},
 	"tokenColors": [
 	{
@@ -64,7 +77,7 @@
 		"name": "Strings",
 		"scope": "string",
 		"settings": {
-		"foreground": "#fa8601"
+		"foreground": "#dd1f1f"
 		}
 	},
 	{
