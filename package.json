@@ -1,27 +1,27 @@
 {
-  "name": "samaritan-theme",
-  "displayName": "Samaritan Theme",
-  "description": "Samaritan UI theme",
-  "version": "1.0.0",
-  "author": "Hugo Cavet",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Ego8316/samaritan-theme"
-  },
-  "engines": {
-    "vscode": "^1.98.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Samaritan",
-        "uiTheme": "vs",
-        "path": "./themes/samaritan-color-theme.json"
-      }
-    ]
-  }
+	"name": "samaritan-theme",
+	"displayName": "Samaritan Theme",
+	"description": "Samaritan UI theme",
+	"version": "1.0.0",
+	"author": "Hugo Cavet",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ego8316/samaritan-theme"
+	},
+	"engines": {
+		"vscode": "^1.98.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+		{
+			"label": "Samaritan",
+			"uiTheme": "vs",
+			"path": "./themes/samaritan-color-theme.json"
+		}
+		]
+	}
 }
