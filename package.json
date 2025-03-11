@@ -1,10 +1,11 @@
 {
 	"name": "samaritan-theme",
-	"displayName": "Samaritan Theme",
-	"description": "Samaritan UI theme",
+	"displayName": "Samaritan UI",
+	"description": "Red and black light theme inspired by the Samaritan AI from *Person of Interest*.",
 	"version": "1.0.0",
 	"author": "Hugo Cavet",
 	"publisher": "Ego8316",
+	"icon": "logo.png",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -23,6 +24,16 @@
 			"uiTheme": "vs",
 			"path": "./themes/samaritan-color-theme.json"
 		}
-		]
+		],
+		"configuration": {
+			"type": "object",
+			"properties": {
+				"editor.fontFamily": {
+					"type": "string",
+					"default": "'Fira Code', 'Courier New', monospace",
+					"description": "Font family used in the editor."
+				}
+			}
+		}
 	}
 }
